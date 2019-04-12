@@ -20,3 +20,13 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function businessCard() {
+
+	info =  'Jestes Krzysztof' + '\n' +
+			'Przybylski' + '\n' +
+			'chyba z Krakowa' + '\n';
+
+	navigator.notification.alert(info);
+	
+}
